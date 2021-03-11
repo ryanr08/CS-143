@@ -1,0 +1,1 @@
+SELECT COUNT(awardYear) FROM Laureates L, NobelPrizes N WHERE (N.id = L.id) AND (L.orgName IS NOT NULL);

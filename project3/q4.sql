@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT afflCity) FROM NobelPrizes WHERE afflName LIKE "%University of California%";

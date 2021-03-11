@@ -1,0 +1,1 @@
+SELECT familyName FROM Laureates as L, NobelPrizes as N WHERE (L.id = N.id) AND (familyName IS NOT NULL) GROUP BY L.familyName HAVING COUNT(*) > 4

@@ -1,0 +1,1 @@
+SELECT DISTINCT afflCountry FROM NobelPrizes WHERE afflName = "CERN"

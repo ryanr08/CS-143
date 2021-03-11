@@ -1,0 +1,1 @@
+SELECT id FROM Laureates WHERE givenName = "Marie";
